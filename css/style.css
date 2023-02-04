@@ -5,12 +5,12 @@
     border:0px;
     color:#fff;
     box-shadow: 0 0 1px #ccc;
-    -webkit-transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
     -webkit-box-shadow: 0px 0px 0 0 #d75c6f inset , 0px 0px 0 #d75c6f inset;
 }
 .btn-hover:hover{
-    -webkit-box-shadow: 0px 50px 0 0px #ffffff inset , 0px -50px 0 0px #ffffff inset; 
+    box-shadow: 0px 50px 0 0px #ffffff inset , 0px -50px 0 0px #ffffff inset; 
 }
 
 h1 {
