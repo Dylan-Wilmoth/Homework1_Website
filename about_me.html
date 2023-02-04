@@ -7,53 +7,57 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet">
     </head>
  
-    <body>
-
+    <!-- Background Photo from https://wallpapersden.com/artistic-landscape-view-wallpaper/2560x1440/ -->
+    <body class = "background_photo">
+        <!-- Name -->
         <div class="text-center">
             <h1>Dylan Wilmoth</h1>
         </div>
 
+
+        <!-- Nav Bar -->
+        <!-- Inspirtation from https://getbootstrap.com/docs/5.0/components/navbar/ -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-            <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarCenteredExample"
-            aria-controls="navbarCenteredExample"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
-                <i class="fas fa-bars"></i>
-            </button>
 
                 <div
                 class="collapse navbar-collapse justify-content-center"
                 id="navbarCenteredExample"
                 >
                     <ul class="navbar-nav mb-2 mb-lg-0 display-6">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <li class="nav-item  btn-hover">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a>|</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item btn-hover">
                             <a class="nav-link" href="about_me.html"><u>About me</u></a>
                         </li>
                         <li class="nav-item">
                             <a>|</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="experience.html">Experience</a>
+                        <li class="nav-item btn-hover">
+                            <a class="nav-link" href="cats.html">My Cats</a>
                         </li>
 
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <!-- About me paragraph -->
+        <div class="about_me" style="width:81%; margin:50px auto;">
+            <p style = "font-size: 45px; color: #ffffff;">
+                I am a 4th year student who is soon to earn a Bachelor's degree in Computer Science (hopefully). So far in my academic career, I have spent one summer at Northrop Grumman as a Software Engineer intern
+                with another internship lined up this summer. This Computer Science course is one that I have had my eye on since I came to UMBC. After interning over the summer, I believe this class will be
+                the most important classes to take when transferring to industry. While I have a head start with my experience at NG, there is much I have left to learn. I am excited to see where this semester leads!
+            </p>
+        </div>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
