@@ -33,7 +33,6 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backdrop-filter: blur(10px);
     height: 100vh;
 }
 
